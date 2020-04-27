@@ -1,5 +1,5 @@
 html{
-    background:url('barista_coffee_breakfast.jpg'); no-repeat center center fixed;
+    background:url('images/barista_coffee_breakfast.jpg'); no-repeat center center fixed;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
@@ -179,7 +179,7 @@ img{
 }
 
 .black_transparent_top{
-	background:url('black_transparent.png');
+	background:url('images/black_transparent.png');
     height: 64px;
     margin: -1938px 240px 12px 260px;
 
