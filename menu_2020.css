@@ -1,0 +1,124 @@
+html{
+    background:url('spinach_in_a_pot.jpg'); no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.title_color{
+    color: #B0A59D;
+}
+
+ul {
+  	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+   	margin-inline-end: 0px;
+    padding-inline-start: 40px
+    padding: 0px 0px 0px 0px;
+}
+
+	li a {
+  		display: block;
+  		color: #B0A59D;
+  		padding: 8px 16px;
+  		text-decoration: none; 			
+}
+
+	li a.active {
+  		background-color: #4CAF50;
+  		color: white;
+}
+
+	li a:hover:not(.active) {
+  		background-color: #555;
+  		color: white;
+}
+
+.header{
+    background:rgba(255,255,255,0.6);
+    transition:background 0.5s ease;
+}
+
+.navmenu{
+    background-image: none !important;
+    background-color: #282420 !important;
+    color: #746b65;
+    text-align: center;
+    letter-spacing: 1px;
+    border: none !important;
+    display: block;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    font-size: 15px;
+    top: 0;
+    width: 210px;
+    z-index: 2000;
+}
+
+.navbrand{
+    padding: 0px 0px 90px 0px
+    float: left;
+    height: 50px;	
+}
+
+#menu-main {
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-family: fairplex-wide, serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    line-height: normal;
+    text-transform: lowercase;
+    color: #B0A59D;
+}
+
+    	
+.nav {
+    padding-left: 0;
+    list-style: none;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+
+img{ 
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: middle;
+    height:auto;
+    width:100%;
+ }
+
+.seperator {
+    border-top: #4b433f solid 1px;
+    width: 100px;
+    height: 1px;
+    margin: 15px auto;
+}
+
+#gatge {
+    position: relative;
+    top: 50%;
+    display: block;
+}
+
+.img_responsive_pull_right {
+    display: block;
+    max-width: 75%;
+    height: auto;
+    float: right!important;    
+    padding: 0px 85px;
+    vertical-align: middle;
+    box-sizing: border-box; 
+    margin: 280px 150px 0px 0px;          
+} 
+
