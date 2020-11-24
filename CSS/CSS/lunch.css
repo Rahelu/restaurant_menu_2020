@@ -1,0 +1,338 @@
+html{
+    background:url('images/lunch_image.jpg'); no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+}
+
+.title_color{
+    color: #97a269;
+    display: block;
+}
+
+ul {
+  	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+   	margin-inline-end: 0px;
+    padding-inline-start: 40px
+    padding: 0px 0px 0px 0px;
+}
+
+li a {
+  	display: block;
+  	color: #B0A59D;
+  	padding: 8px 16px;
+  	text-decoration: none; 			
+}
+
+li a.active {
+  	background-color: #4CAF50;
+  	color: white;
+}
+
+li a:hover:not(.active) {
+  	background-color: #555;
+  	color: white;
+}
+
+.header{
+    background:rgba(255,255,255,0.6);
+    transition:background 0.5s ease;
+}
+
+.navmenu{
+    background-image: none !important;
+    background-color: #282420 !important;
+    color: #746b65;
+    text-align: center;
+    letter-spacing: 1px;
+    border: none !important;
+    display: block;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    font-size: 15px;
+    top: 0;
+    width: 210px;
+    z-index: 2000;
+}
+
+.navbrand{
+    padding: 0px 0px 90px 0px
+    float: left;
+    height: 50px;	
+}
+
+#menu-main {
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-family: fairplex-wide, serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    line-height: normal;
+    text-transform: lowercase;
+    color: #B0A59D;
+}
+ 	
+.nav {
+    padding-left: 0;
+    list-style: none;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+
+img{ 
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: middle;
+    height:auto;
+    width:100%;
+ }
+.seperator {
+    border-top: #4b433f solid 1px;
+    width: 100px;
+    height: 1px;
+    margin: 15px auto;
+}
+
+/*
+#main{
+	color:rgb(0, 0, 0);
+	display:block;
+	float:left;
+	font-family:sans-serif;
+	font-size:10px;
+	height:4116px;
+	min-height:1px;
+	padding-left:15px;
+	padding-right:15px;
+	position:relative;
+	text-size-adjust:100%;
+	width:625px;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+*/
+
+/* not working.
+.section{
+	 background: url(black_transparent.png);
+
+}
+
+.container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: table;
+    content: " ";
+}
+
+.row{
+	margin-right: -15px;
+    margin-left: -15px;
+}
+
+.identifying{
+	width: 83.33333333%;
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+*/
+
+.black_transparent{
+	vertical-align: middle;
+	height: 233%;
+    width: 65%;
+    margin: 129px 0px 0px 260px;
+}
+
+.container{
+    height: 638px;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-position: center;
+    top: 0;
+    z-index: -1;
+    margin: 0px 0px 0px 310px;
+
+}
+
+.black_transparent_top{
+	background:url('images/black_transparent.png');
+    height: 64px;
+    margin: -1938px 240px 12px 260px;
+
+}
+
+.row{
+	margin-right: -15px;
+    margin-left: -15px;
+}
+
+.left_line{
+	width: 41.66666667%;
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display:inline;
+}
+
+.right_line{
+    width: 41.66666667%;
+    float: right;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline;
+
+}
+
+.middle_line{
+    width: 41.66666667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline;
+
+}
+
+.title_left{
+    height: 3px;
+    background: url(images/white_back.jpg) repeat-x;
+    padding: 0px;
+    margin: 25px;
+    margin-top: 155px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 247px;
+}
+
+.title_right{
+    height: 3px;
+    background: url(images/white_back.jpg) repeat-x;
+    padding: 0px;
+    margin: 25px;
+    margin-top: -29px;;
+    margin-right: 225px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+}
+
+.title_middle{
+    color: white;
+    margin: 25px;
+    margin-top: 143px;
+    margin-right: 225px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+
+
+.title{
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+    padding-top: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: .67em 0;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;line-height: 1.1;
+    display: inline;
+}
+
+.two_section_column{
+	display: block;
+	background-color: rgba(0, 0, 0, 0.0);
+	border-bottom-color: transparent;
+	color: #ffffff;
+    font-weight: bold;
+    margin: -250px 0px 0px 350px;
+ 	position: absolute;
+  	left: 0;
+  	top: 50%;
+  	width: 50%;
+  	text-align: center;
+  	font-size: 18px;
+
+}
+.food_and_breakfast_title{
+	background-color: rgba(0, 0, 0, 0.0);
+    color: #97a269;
+    font-family: fairplex-wide, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.drink_breakfast_title{
+	background-color: rgba(0, 0, 0, 0.0);
+    color: #97a269;
+    font-family: fairplex-wide, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.item_1{
+	color: #fff;
+    margin-right: 0px;
+    font-family: fairplex-wide, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    padding-bottom: 8px;
+    text-align: center;
+    float: none;
+}
+
+.description_text{
+	text-align: center;
+    font-family: fairplex-wide, serif;
+    color: #fff !important;
+    float: none;
+    font-weight: normal;
+    font-style: normal !important;
+    font-size: 18px;
+}
+
+.break_line{
+    height: 1px;
+    background: url(images/white_back.jpg) repeat-x;
+    padding: 0px;
+    margin: 25px;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+
+}
