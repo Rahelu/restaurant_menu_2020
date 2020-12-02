@@ -1,0 +1,473 @@
+<script>
+	console.log("hello world");
+	var number = 5;// in-line comment
+	/* this is a 
+	multi-line comment*/
+	number= 9;
+	/*Data Types:
+	undefined,null (nothing),boolean (true or false),string (text),symbol( unique value),number,object( can store key value pairs)
+	*/
+
+	var myName= "Rahel" 
+	/* var can be used throughout the whole programm */
+
+	myName = 8
+
+	let ourName="RahelEthan"
+
+	/*only usable in the scope where it is delcared at*/
+
+	const pi= 3.14
+
+	/* variable that can never change*/
+
+	var a;
+	/*declaring a variable*/
+
+	var b= 2;
+	/*delaring and asigning a variable (2 to b)*/
+
+	console.log(a)
+
+	a= 7;
+
+	/*a doesn't need to be declarded anymore, 7 was asigned to a*/
+
+	b= a;
+
+	console.log(a)
+
+	/* log allows to see things in the console*/
+
+	var a= 9;
+
+	/* var a declared, =9 is initialed*/
+
+	// Initialize these three variables
+
+	var a = 5;
+	var b = 10;
+	var c = "I am a ";
+
+	// Do not change code below this line
+
+	a= a + 1;
+	b= b + 5;
+	c= c + "String!";
+
+	// Declarations
+
+	var studlyCapVar;
+	var properCamelCase;
+	var titleCaseOver;
+
+	//Assignments
+
+	studlyCapVar = 10;
+	properCamelCase = "A String"
+	titleCaseOver= 9000;
+
+console.log(studlyCapVar)
+
+//Adding numbers
+
+var sum = 10 + 10;
+
+console.log (sum)
+
+//Subtracting 
+
+var difference = 45 - 33;
+
+console.log (difference)
+
+//Multification
+
+var product = 8 * 10;
+
+//Dividing numbers
+
+var quotient = 66 / 33;
+
+console.log (quotient)
+
+// Incrementing a number ( adding 1 to it)
+
+var myVar= 87 ;
+
+// it has the same meaning
+myVar = myVar + 1;
+myVar ++
+
+//Decrementing Numbers
+
+var myVar= 11;
+
+myVar = myVar - 1;
+//same meaning
+myVar --;
+
+//Decimal Numbers
+
+var ourDecimal = 5.7;
+
+var myDecimal = 0.009
+
+// Multiply Decimals
+
+var product = 2.0 * 2.5;
+
+console.log( product)
+
+//Divide Decimals
+
+var quotient = 4.4 / 2.0;
+
+//Finding a Remainder,used to determine if a number is even or odd . Remainder operator looks like a percent sign, it gives a vision of two numbers
+
+var remainder;
+remainder= 11 % 3;
+
+// remainder is 2. 
+
+//Compound Assignment with Augmented Addition
+
+var a = 3;
+
+var b = 17;
+
+var c = 12;
+
+a = a + 12; //  Shortcut: a+=12
+
+b = 9 +b; // Shortcut: b+=9
+
+c = c + 7; // Shortcut: c+=7
+
+//Compound Assignment with Augmented Subtraction
+
+var a = 11;
+
+var b = 9;
+
+var c =3;
+
+a = a - 6; //Shortcut : a-=6
+
+b = b - 15; // Shortcut: b-=15
+
+c = c - 1; // Shortcut: c-=1
+
+//Compound Assignment with Augmented Multiplication
+
+var a = 5;
+
+var b = 12;
+
+var c = 4.6;
+
+a = a * 5; // Shortcut : a*=5
+
+b = 3* b; // Shortcut : b*=3
+
+c = c* 10; // Shortcut : c*=10
+
+// Compound Assignment with Augmented Division
+
+var a = 48;
+
+var b = 108;
+
+var c = 33;
+
+a = a / 12; // Shortcut: a/= 12
+
+b = b / 4; // Shortcut: b/=4
+
+c = c / 11; // Shortcut: c/=11
+
+// Declare String Variables
+
+var firstName = "Alan";
+
+var lastName = "Turing";
+
+var myFirstName = "Rahel";
+
+var myLastName = "Iyob";
+
+//Escaping Literal Quotes in Strings ( with Back slashes infront of Quotatien marks)
+
+ var myStr = " I am a \"double quoted\" string inside \"doube quotes\"";
+
+console.log (myStr)
+
+//Quoting Strings with Single Quotes
+
+var myStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
+
+// Escape characters can be escaped by putting single quotes instead of double quotes
+
+var myStr = '<a href= "http://www.example.com" target= "blank">Link</a>';
+
+console.log (myStr)
+
+//Escape Sequences in Strings
+
+/*****
+
+Code Output
+
+\' single quote
+\" double quote
+\\ backslash
+\n newline
+\r carriage return
+\t tab
+\b backspace
+\f form feed
+
+*****/
+
+var myStr = " FirstLine\n\t\\SecondLine\nThirdLine"
+
+console.log ( myStr)
+
+//Concatenating Strings with Plus Operator
+
+//Example
+
+var ourStr = " I come first. " + "I come second.";
+
+var myStr = "This is the start. " + "This is the end."
+
+console.log (myStr);
+
+//Concatenating Strings with Plus Equals Operator
+
+var ourStr = "I come first. ";
+
+ourStr += "I come second.";
+
+var myStr = "This is the first sentence. "
+myStr += " This is the second sentence. " 
+
+console.log (myStr);
+
+//Constructing Strings with Variables
+
+var theirName = "free";
+var ourStr = "Hello, our name is " + theirName + ", how are you?";
+
+var myName = "Rahel";
+var myStr = "My name is " + myName + " and I am well!";
+
+console.log (myStr);
+
+
+
+//Appending Variables to Strings
+
+var anAdjective = "awesome!";
+var ourStr = "freecodeCamp is ";
+ourStr += anAdjective;
+
+var someAdjective = "worthwhile";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+
+//Find Length of String
+
+var firstNameLength = 0;
+var firstName = "Ada";
+
+firstNameLength = firstName.length;
+
+var lastNamelength = 0;
+var lastName = "Lovelace";
+
+lastNamelength = lastName.length;
+
+console.log (lastNamelength);
+
+//Bracket Notation to Find First Character in String
+
+var firstLetterOfFirstName = "";
+var firstName = "Ada"
+
+firstLetterOfFirstName = firstName [0];
+
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0];
+
+console.log(firstLetterOfLastName);
+
+//Zero based indexing = Javascript
+
+//String Immutability
+// Strings cannnot be altered, once created, doesn't mean that the string cannot be changed, only individual letters cannot be changed
+
+
+var myStr = "Jello World";
+
+myStr[0] = "H"; // wouldn't work
+myStr ="Hello World";
+
+//Bracket Notation to Find Nth Character in String
+
+var firstName = "Ada";
+var secondLetterOffFirstName = firstName [1];
+
+var lastName = "Lovelace";
+
+var thirdLetterofLastName = lastName[2];
+
+//Bracket Notation to Find Last Character in String
+
+var firstName = "Ada";
+var lastLetterOfFirstName = firstName[firstName.length -1];
+
+
+//-1 for finding the last Letter, because Index starts at 0 for the first letter.
+
+
+var lastName = "LoveLace";
+var lastLetterOfLastName = lastName[lastName.length - 1]
+
+
+//Bracket Notation to Find Nth-to-Last Character in String
+
+var firstName = "Ada"
+var thirdToLastLetterOfFirstName = firstName[firstName.length -3];
+
+var lastName = "Lovelace";
+
+var secondToLastLetterOfLastName = lastName[lastName.length -2];
+
+//Word Blanks
+// building sentences with missing words
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
+  var result = "";
+
+  result +=
+    "The" +
+    " " +
+    myAdjective +
+    " " +
+    myNoun +
+    " " +
+    myVerb +
+    " to the store " +
+    myAdverb;
+
+  return result;
+}
+
+console.log(wordBlanks("dog", "big", "ran", "quickly"));
+console.log(wordBlanks("dog", "big", "ran","quickly"));
+
+// Store Multiple Values with Arrays
+//any element/data( strings, numbers...etc.) can be placed insinde
+
+var ourArray = ["John", 23];
+var myArray = ["Quincy", 1];
+
+//Nested Arrays
+//Two Arrays within another Array
+
+var ourArray = [
+  ["the universe", 42],
+  ["everything", 101010],
+];
+var myArray = [
+  ["Bulls", 23],
+  ["White Sox", 45],
+];
+
+//Access Array Data with Indexes
+
+var ourArray = [50, 60, 70];
+//Indexes are 0,1,2
+var ourData = ourArray[0]; //equals 50
+
+var myArray = [50, 60, 70];
+
+var myArray = myArray[0]; // equals 50
+
+console.log(myArray);
+
+//Modify Array Data with Indexes
+
+var ourArray = [18, 64, 99];
+ourArray[1] = 45; // ourArray now equals [18,45,99].
+
+var myArray = [18, 64, 99];
+
+myArray[0] = 45; // myArray now equals [45,64,99]
+
+console.log(myArray);
+
+//Access Multi-Dimensional Arrays with Indexes
+
+var myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+//inside of the Array are other Arrays( 3 layered deep array)
+// thirdArray is [7,8,9] with Index 2; Index 1 to get the second Number in thirdArray
+var myData = myArray[2][1];
+console.log(myData);
+
+//Manipulate Arrays with push()
+
+varourArray = ["Stimpson", "J", "cat"];
+ourArray.push(["happy", "joy"]);
+//ourArray now equals ["Stimpson", "J","cat", ["happy", "joy"]]
+
+var myArray = [
+  ["John", 23],
+  ["cat", 2],
+];
+myArray.push(["dog", 3]);
+
+console.log(myArray);
+
+//Manipulate Arrays with pop ()
+
+function caseInSwitch(val) {
+  var answer = "";
+  switch (val) {
+    case 1:
+      answer = "alpha";
+      break;
+    case 2:
+      answer = "beta";
+      break;
+    case 3:
+      answer = "gamma";
+    case 4:
+      answer = "delta";
+      break;
+  }
+
+  return answer;
+}
+
+console.log(caseInSwitch(2));
+
+
+</script>
+
+
+
+
+
+
+
+
+
+

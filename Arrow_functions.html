@@ -1,0 +1,28 @@
+<script>
+  //Use Arrow Functions to Write Concise Anonymous Functions
+
+  var magic = function (){ // anonymous function
+  	return new Date();
+  }
+
+  var magic = ()=>{} // has the same meaning as the anonymous function
+  	return new Date();
+  };
+
+  var magic = () => new Date(); // same meaning as the function
+
+  //Write Arrow Functions with Parameters
+  // Arguments can be passed to arrows ( as to functions)
+
+  var myConcat = function (arr1,arr2){ // function with two arguments
+  	return arr1.concat(arr2);
+  };
+
+  var myConcat = (arr1, arr2) => arr1.concat(arr2);
+
+  console.log(myConcat([1,2], [3,4,5]));
+
+  //Write Higher Order Arrow Functions
+
+  const increment = (function ()){}
+</script>
