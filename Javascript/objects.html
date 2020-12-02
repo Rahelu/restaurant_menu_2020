@@ -1,0 +1,148 @@
+<script>
+  // Build Javascript Object
+  //Objects are similiar to arrays, beside that index , properties are used
+
+  var ourDog = {
+    // Objects are defined with this curly brackets, properties are "name", "legs" usw.
+    name: "Camper", // value is camper
+    legs: 4,
+    tails: 1,
+    friends: ["everything!"],
+  };
+
+  var myDog = {
+    name: "Quincy",
+    legs: 3,
+    tails: 2,
+    friends: [],
+  };
+  // created objects
+
+  //Accessing Object Properties with Dot Notation
+
+  var testObj = {
+    hat: "ballcap",
+    shirt: "jersey",
+    shoes: "cleats",
+  };
+
+  var hatValue = testObj.hat; // "hat" is the property, this will return "ballcap"
+  var shirtValue = testObj.shirt;
+
+  // Accessing Object Properties with Bracket Notation
+  var testObj = {
+    // this is the object
+    "an entree": "hamburger", // brackets are required wenn eine Lücke ist zwischen den Properties ist
+    "my side": "veggies",
+    "the drink": "water",
+  };
+
+  var entreeValue = testObj["an entree"]; // need to be placed in brackets, became an array
+  var drinkValue = testObj["the drink"]; // return will be "water"
+
+  // Accessing Object Properties with Variables
+
+  var testObj = {
+    12: "Namath",
+    16: "Montana", // number can be exchanged with a variable ( playernumber)
+    19: "Unitas",
+  };
+
+  var playerNumber = 16;
+  var player = testObj[playerNumber]; // variable was exchanged with the number 16
+  // player is set to "Montana"
+
+  // Updating Object Properties
+
+  var myDog = {
+    name: "Coder",
+    legs: "4",
+    tails: 1,
+    friends: ["freeCodeCamp Campers"],
+  };
+
+  myDog.name = "Happer Coder";
+  // the object property was set to a new value " Happy Coder" instead of "Coder"
+
+  //Add New Properties to an Object
+
+  myDog["bark"] = "woof!"; // bark is a new  property, that gets add to the other properties
+
+  // Delete Properties from Objects
+
+  delete ourDog.bark; // property bark gets deleted
+
+  //Using Objects for Lookups
+
+  function phoneticLookup(val) {
+    // an object can be used to lookup values
+    var result = "";
+
+    var lookup = {
+      // this is an object
+      alpha: "Adams",
+      bravo: "Boston",
+      charlie: "Chicago",
+    };
+    result = lookup[val];
+    return result;
+  }
+
+  console.log(phoneticLookup("charlie"));
+
+  // Testing Objects for Properties
+
+  var myObj = {
+    gift: "pony",
+    pet: "kitten",
+    bed: "sleigh",
+  };
+
+  function checkObj(checkProp) {
+    if (myObj.hasOwnProperty(checkProp)) {
+      return myObj[checkProp];
+    } else {
+      return "Not Found";
+    }
+  }
+
+  console.log(checkObj("gift"));
+
+  //Manipulating Complex Objects
+
+  var myMusic = [
+    // this is an array, objects are inside
+    {
+      artist: "Billy Joel",
+      title: "Piano Man",
+      release_year: 1973,
+      formats: ["CD", "8T", "LP"],
+      gold: true,
+    },
+    {
+      artist: "Beau Carnes", // this is a second array, in which objects are inside, each object holds a property with key value data, important for "jason"
+      title: "Cereal Man",
+      release_year: 2003,
+      formats: ["Youtube video"],
+    },
+  ];
+
+  // Accessing Nested Object
+
+  var myStorage = {
+    // object and inside are further objects
+    car: {
+      inside: {
+        "glove box": "maps",
+        "passenger seat": "crumbs",
+      },
+      outside: {
+        trunk: "jack",
+      },
+    },
+  };
+
+  var gloveBoxContents = myStorage.car.inside["glove box"];
+
+  console.log(gloveBoxContents);
+</script>
